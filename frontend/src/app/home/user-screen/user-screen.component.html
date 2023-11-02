@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICIN Bank - User Home</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, User!</h2>
+        <div class="balance">
+            <h3>Your Balance: $ {{ checkingBalance }}</h3>
+        </div>
+        <div class="options">
+            <a class="nav-link" routerLink="/move">Deposit/Withdraw</a> <br>
+            <a class="nav-link" routerLink="/transaction/transfer">Transfer</a> <br>
+            <button class="action-button" (click)="requestCheckbook()">Request Checkbook</button> <br>
+        </div>
+    </div>    
+</body>
+</html>
+<!-- <button class="btn btn-primary" (click)="createCheckbookRequest()">Submit Request</button> -->
