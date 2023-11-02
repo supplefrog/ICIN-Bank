@@ -14,34 +14,34 @@ export class ImageSliderComponent {
 
   imageObject: Array<object> = [
     {
-      image: 'assets/images/download.jpg',
-      thumbImage: 'assets/images/download.jpg',
-      alt: 'Your Image Alt Text',
+      image: 'assets/images/1.jpg',
+      thumbImage: 'assets/images/0.jpg',
+      alt: 'img',
       //title: 'Image 1'
     }, {
-      image: 'assets/images/download (1).jpg',
-      thumbImage: 'assets/images/download (1).jpg',
-      alt: 'Your Image Alt Text',
+      image: 'assets/images/1.jpg',
+      thumbImage: 'assets/images/1.jpg',
+      alt: 'img',
       //title: 'Image 1'
     }, {
-      image: 'assets/images/download (2).jpg',
-      thumbImage: 'assets/images/download (2).jpg',
-      alt: 'Your Image Alt Text',
+      image: 'assets/images/2.jpg',
+      thumbImage: 'assets/images/2.jpg',
+      alt: 'img',
       //title: 'Image 1'
     }, {
-      image: 'assets/images/download (3).jpg',
-      thumbImage: 'assets/images/download (3).jpg',
-      alt: 'Your Image Alt Text',
+      image: 'assets/images/3.jpg',
+      thumbImage: 'assets/images/3.jpg',
+      alt: 'img',
       //title: 'Image 1'
     }, {
-      image: 'assets/images/download (4).jpg',
-      thumbImage: 'assets/images/download (4).jpg',
-      alt: 'Your Image Alt Text',
+      image: 'assets/images/4.jpg',
+      thumbImage: 'assets/images/4.jpg',
+      alt: 'img',
       //title: 'Image 1'
     }, {
-      image: 'assets/images/download (5).jpg',
-      thumbImage: 'assets/images/download (5).jpg',
-      alt: 'Your Image Alt Text',
+      image: 'assets/images/5.jpg',
+      thumbImage: 'assets/images/5.jpg',
+      alt: 'img',
       //title: 'Image 1'
     }
 ];
