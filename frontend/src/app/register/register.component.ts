@@ -19,7 +19,7 @@ export class RegisterComponent implements OnInit {
     submitted = false;
     isSuccessful=false
     isSignUpFailed = false;
-    errorMessage = "";
+    errorMessage = ""; 
 
     constructor(
         private formBuilder: FormBuilder,
